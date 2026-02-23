@@ -7,7 +7,7 @@ console.log(listUlEl);
 
 
 let mail =[]
-
+function refreshMails(){
 for(let i=0; i< 10;i++){
     fetch("https://flynn.boolean.careers/exercises/api/random/mail")
     .then(response => response.json())
@@ -17,12 +17,14 @@ for(let i=0; i< 10;i++){
    mail.push(multipleMails)  
 }
 )}
-
+}
 console.log(mail);
 
+refreshMails()
 
-
-
+refreshButtonEl.addEventListener("click",function(){
+    refreshMails()
+})
 
 
 
