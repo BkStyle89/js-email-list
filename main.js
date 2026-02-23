@@ -1,5 +1,8 @@
 /* https://flynn.boolean.careers/exercises/api/random/mail */
 console.log("test");
+const listLiEl =document.querySelector(".list-group-item")
+
+console.log(listLiEl);
 
 
 for(let i=0; i< 10;i++){
