@@ -1,6 +1,8 @@
+
 .card{
     width: 500px;
     background: linear-gradient(to bottom, black, purple);
     color: white;
     padding: 10px;
+    border: solid 2px black;
 }
