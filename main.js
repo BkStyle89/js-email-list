@@ -15,6 +15,7 @@ for(let i=0; i< 10;i++){
         let multipleMails = mails.response
    listUlEl.innerHTML += `<li> ${multipleMails} </li>`
    mail.push(multipleMails)  
+   
 }
 )}
 }
